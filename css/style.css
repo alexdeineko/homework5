@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eeeeed;
+}
+@font-face {
+  font-family: Tahoma;
+  src: url(fonts/tahoma.ttf);
+}
+.backgroundCenter {
+  text-align: center;
+}
+a {
+  color: white;
+}
+.header {
+  height: 36px;
+  width: 1215px;
+  background: #085494;
+  margin: auto;
+}
+.header__login {
+  display: block;
+  float: right;
+  height: 35px;
+  width: 190px;
+  margin-right: auto;
+  margin: 0 20px 0 0;
+  border-left: 1px #5aa4de solid;
+  border-bottom: 1px #5aa4de solid;
+  border-right: 1px #5aa4de solid;
+  background: linear-gradient(to bottom, rgba(81, 177, 220, 1) 0%, rgba(46, 122, 196, 1) 100%);
+  font-family: Tahoma;
+  font-size: 14px;
+  color: white;
+}
+.header__login__container {
+  padding: 8px 0 0 13px;
+}
+.header__suggestions {
+  display: block;
+  float: right;
+  height: 35px;
+  width: 190px;
+  margin-right: auto;
+  border-left: 1px #5aa4de solid;
+}
+.header__suggestions__text {
+  float: right;
+  font-family: Tahoma;
+  font-size: 14px;
+  color: white;
+  padding: 8px 35px 0 0;
+}
+.header__suggestions__logo {
+  padding: 6px 0 0 24px;
+}
+ul, top_links {
+  margin: 0;
+}
+ul.top_links li {
+  display: inline;
+  list-style-type: none;
+  float: right;
+  padding: 8px 17px 10px 17px;
+}
+ul.top_links li a {
+  text-decoration: none;
+  opacity: 0.6;
+  font-family: Tahoma;
+  font-size: 14px;
+  /*   padding: 8px 17px 10px 17px; */
+}
+ul.top_links li a:hover {
+  background: #4eabda;
+  opacity: 1;
+}
+ul.top_links li:hover {
+  background: #4eabda;
+}
+
+/*.header {
+  height: 36px;
+  width: 1215px;
+  background: #085494;
+  margin: auto;
+}
+.header__login {
+  display: block;
+  float: right;
+  height: 35px;
+  width: 190px;
+  margin-right: auto;
+  margin: 0 20px 0 0;
+  border-left: 1px #5aa4de solid;
+  border-bottom: 1px #5aa4de solid;
+  border-right: 1px #5aa4de solid;
+  background: linear-gradient(to bottom, rgba(81, 177, 220, 1) 0%, rgba(46, 122, 196, 1) 100%);
+}
+.header__suggestions {
+  display: block;
+  float: right;
+  height: 35px;
+  width: 190px;
+  margin-right: auto;
+  border-left: 1px #5aa4de solid;
+}
+ul, top_links {
+  margin: 0;
+}
+ul.top_links li {
+  display: inline;
+  list-style-type: none;
+  float: right;
+}*/
+
+.formsWindow__top {
+  height: 40px;
+  border-bottom: 2px #b3bba4 solid;
+  font-family: Tahoma;
+  font-size: 20px;
+  color: white;
+  opacity: 0.9;
+  padding: 10px 0 0 0;
+}
+.formsWindow {
+  height: 520px;
+  width: 370px;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 50%;
+  margin-left: -185px;
+  margin-top: 50px;
+}
+.facebook__button {
+  padding: 20px 0 0 0;
+}
+.container_button {
+  box-sizing: border-box;
+  display: block;
+  height: 30px;
+  width: 220px;
+  border-top: 1px solid #778ab2;
+  border-radius: 4px;
+  background-color: #3d5696;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: tahoma;
+  font-size: 12px;
+  color: white;
+  background: linear-gradient(to bottom, rgba(61, 85, 145, 1) 0%, rgba(48, 66, 116, 1) 100%);
+}
+.container_button i {
+  display: block;
+  float: left;
+  padding: 1px 12px 10px 13px;
+  font-size: 20px;
+}
+.container_button .facebook-button-content {
+  float: left;
+  padding: 7px 0 7px 12px;
+  border-left: 1px solid #4d66a6;
+}
+.input_form {
+  text-align: center;
+}
+.formstyle input {
+  font-family: Tahoma;
+  height: 30px;
+  width: 220px;
+  font-size: 13px;
+  padding: 6px 0 0px 10px;
+  border: #494947;
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 1) 0%, rgba(18, 17, 16, 1) 100%);
+  color: white;
+}
+.formstyle input:focus {
+  background: #1b5288;
+  box-shadow: 0px 0px 9px 2px rgba(75, 135, 175, 1);
+}
+button {
+  height: 30px;
+  width: 130px;
+  background: linear-gradient(to bottom, rgba(80, 175, 219, 1) 0%, rgba(46, 121, 196, 1) 100%);
+  border: #67c6e6;
+  color: white;
+  border-radius: 3px;
+  font-family: Tahoma;
+}
+button:hover {
+  box-shadow: 0px 0px 9px 2px rgba(103, 198, 230, 1);
+}
+input::-webkit-input-placeholder {
+  font-family: Tahoma;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/*:focus::-webkit-input-placeholder {
+  color: transparent
+}*/
+
+.checkboxYoubike {
+  color: white;
+  font-family: Tahoma;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.privacy_policy {
+  font-family: Tahoma;
+  font-size: 10px;
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+}
